@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fajar Adi Suwiryo | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div id="particles-js"></div>
+        <div class="stars"></div>
+        <div class="stars2"></div>
+    </div>
+
+    <!-- Premium Loading Screen -->
+    <div class="preloader">
+        <div class="loader-container">
+            <div class="battery">
+                <div class="battery-level"></div>
+                <div class="battery-percent">0%</div>
+            </div>
+            <div class="welcome-text">
+                <span class="welcome-letter">W</span>
+                <span class="welcome-letter">E</span>
+                <span class="welcome-letter">L</span>
+                <span class="welcome-letter">C</span>
+                <span class="welcome-letter">O</span>
+                <span class="welcome-letter">M</span>
+                <span class="welcome-letter">E</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <header class="header">
+        <a href="#home" class="logo">
+            Mohammad <span>Fajar</span> Adi Suwiryo
+        </a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Fajar</span></h1>
+            <h3 class="text-animation">
+                I'm a <span></span>
+            </h3>
+            <p>I am a Backend Developer specializing in automation systems like Telegram and Discord bots, API integration, and backend logic management.</p>
+
+            <div class="social-icons">
+                <a href="https://github.com/Jarz2025" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.instagram.com/fajarcool4404/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-tiktok'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#contact" class="btn btn-secondary">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="jawa.jpg" alt="Fajar Adi Suwiryo" loading="lazy" class="float-image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="profile.gif" alt="About Fajar" loading="lazy">
+        </div>
+    
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3 class="text-animation">
+                <span></span>
+            </h3>
+            <p>With expertise in building multi-functional bots, API-based transaction systems, dynamic dashboards, and technical indicator-based trading notifications, I deliver robust backend solutions.</p>
+            <a href="#services" class="btn">My Services</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bx-code-alt'></i>
+                    <h4>Backend Development</h4>
+                    <p>Specializing in efficient, secure backend systems including Telegram/Discord bots, API systems, and data automation.</p>
+                </div>
+            </div>
+            
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bx-desktop'></i>
+                    <h4>Frontend Development</h4>
+                    <p>Building responsive interfaces with HTML, CSS, JavaScript and frameworks.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bx-desktop'></i>
+                    <h4>Editor</h4>
+                    <p>Building responsive interfaces with HTML, CSS, JavaScript and frameworks.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bx-line-chart'></i>
+                    <h4>Trading Systems</h4>
+                    <p>Developing automated trading signals and technical analysis tools.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Telegram Control System" loading="lazy">
+                <div class="project-content">
+                    <h3>Add Aspiration Via Telegram Bot</h3>
+                    <p>Auto Add Aspiration Via Telegram Bot</p>
+                    <a href="https://jarz2025.github.io/CleoPS/" class="btn">View Details</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="project2.jpg" alt="Dynamic Content System" loading="lazy">
+                <div class="project-content">
+                    <h3>RSI And Auto Signal B/S</h3>
+                    <p>Relative streght index and auto send webhook if buy/sell.</p>
+                    <a href="https://jarz2025.github.io/CleoPS/err.html" class="btn">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form id="contact-form" class="contact-form">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                    <input type="text" name="subject" placeholder="Subject">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="message" cols="30" rows="6" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </div>
+        </form>
+        <div id="form-status"></div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="footer-legal">
+                <p>&copy; 2023 Fajar Adi Suwiryo. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
