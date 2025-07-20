@@ -802,7 +802,7 @@ section {
     background: var(--bg-color);
 }
 
-/* Responsive Design */
+/* Responsive Designm */
 @media (max-width: 992px) {
     html {
         font-size: 55%;
