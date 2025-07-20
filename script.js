@@ -272,7 +272,7 @@ function updateLanguage(lang) {
     languageToggle.textContent = lang === 'en' ? 'ID' : 'EN';
 }
 
-// Toggle language on button click
+// Toggle language on button clickp
 languageToggle.addEventListener('click', () => {
     const newLanguage = currentLanguage === 'en' ? 'id' : 'en';
     updateLanguage(newLanguage);
@@ -281,7 +281,7 @@ languageToggle.addEventListener('click', () => {
     localStorage.setItem('preferredLanguage', newLanguage);
 });
 
-// Check for saved language preference
+// Check for saved language preference 
 document.addEventListener('DOMContentLoaded', () => {
     const savedLanguage = localStorage.getItem('preferredLanguage');
     if (savedLanguage) {
