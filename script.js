@@ -1,10 +1,10 @@
-// Loading Screen Animation
+// Loading Screen 
 document.addEventListener('DOMContentLoaded', function() {
     const preloader = document.querySelector('.preloader');
     const batteryLevel = document.querySelector('.battery-level');
     const batteryPercent = document.querySelector('.battery-percent');
     
-    // Simulate loading progress
+    // loading progress
     let progress = 0;
     const interval = setInterval(() => {
         progress += 1;
@@ -32,7 +32,7 @@ menuIcon.addEventListener('click', () => {
     navbar.classList.toggle('active');
 });
 
-// Close menu when clicking on links
+// Close menu when clicking on link
 document.querySelectorAll('.navbar a').forEach(link => {
     link.addEventListener('click', () => {
         menuIcon.classList.remove('bx-x');
@@ -175,3 +175,116 @@ document.querySelectorAll('.service-box, .project-card').forEach(element => {
 
 window.addEventListener('scroll', animateOnScroll);
 window.addEventListener('load', animateOnScroll);
+
+// Language Toggle Functionality
+const languageToggle = document.getElementById('language-toggle');
+let currentLanguage = 'en'; // Default language is English
+
+// Language content
+const languageContent = {
+    en: {
+        home: "Home",
+        about: "About",
+        services: "Services",
+        projects: "Projects",
+        contact: "Contact",
+        hireMe: "Hire Me",
+        contactBtn: "Contact",
+        greeting: "Hi, I'm",
+        profession: "I'm a",
+        description: "I am a Backend Developer specializing in automation systems like Telegram and Discord bots, API integration, and backend logic management.",
+        aboutHeading: "About Me",
+        aboutDescription: "With expertise in building multi-functional bots, API-based transaction systems, dynamic dashboards, and technical indicator-based trading notifications, I deliver robust backend solutions.",
+        servicesHeading: "My Services",
+        projectsHeading: "My Projects",
+        contactHeading: "Contact Me",
+        formName: "Full Name",
+        formEmail: "Email Address",
+        formPhone: "Phone Number",
+        formSubject: "Subject",
+        formMessage: "Your Message",
+        formSubmit: "Send Message"
+    },
+    id: {
+        home: "Beranda",
+        about: "Tentang",
+        services: "Layanan",
+        projects: "Proyek",
+        contact: "Kontak",
+        hireMe: "Pekerjakan Saya",
+        contactBtn: "Kontak",
+        greeting: "Hai, Saya",
+        profession: "Saya seorang",
+        description: "Saya seorang Backend Developer yang berspesialisasi dalam sistem otomatisasi seperti bot Telegram dan Discord, integrasi API, dan manajemen logika backend.",
+        aboutHeading: "Tentang Saya",
+        aboutDescription: "Dengan keahlian dalam membangun bot multi-fungsi, sistem transaksi berbasis API, dashboard dinamis, dan notifikasi trading berbasis indikator teknis, saya memberikan solusi backend yang kuat.",
+        servicesHeading: "Layanan Saya",
+        projectsHeading: "Proyek Saya",
+        contactHeading: "Hubungi Saya",
+        formName: "Nama Lengkap",
+        formEmail: "Alamat Email",
+        formPhone: "Nomor Telepon",
+        formSubject: "Subjek",
+        formMessage: "Pesan Anda",
+        formSubmit: "Kirim Pesan"
+    }
+};
+
+// Function to update the language
+function updateLanguage(lang) {
+    currentLanguage = lang;
+    const content = languageContent[lang];
+    
+    // Update navigation
+    document.querySelectorAll('.navbar a').forEach((link, index) => {
+        const keys = ['home', 'about', 'services', 'projects', 'contact'];
+        if (index < keys.length) {
+            link.textContent = content[keys[index]];
+        }
+    });
+    
+    // Update home section
+    document.querySelector('.home-content h1 span').previousSibling.textContent = content.greeting + ' ';
+    document.querySelector('.home-content p').textContent = content.description;
+    document.querySelectorAll('.btn-group .btn')[0].textContent = content.hireMe;
+    document.querySelectorAll('.btn-group .btn')[1].textContent = content.contactBtn;
+    
+    // Update about section
+    document.querySelector('.about-content h2 span').previousSibling.textContent = content.aboutHeading.split(' ')[0] + ' ';
+    document.querySelector('.about-content p').textContent = content.aboutDescription;
+    
+    // Update services section
+    document.querySelector('.services h2 span').previousSibling.textContent = content.servicesHeading.split(' ')[0] + ' ';
+    
+    // Update projects section
+    document.querySelector('.projects h2 span').previousSibling.textContent = content.projectsHeading.split(' ')[0] + ' ';
+    
+    // Update contact section
+    document.querySelector('.contact h2 span').previousSibling.textContent = content.contactHeading.split(' ')[0] + ' ';
+    document.querySelector('input[name="name"]').placeholder = content.formName;
+    document.querySelector('input[name="email"]').placeholder = content.formEmail;
+    document.querySelector('input[name="phone"]').placeholder = content.formPhone;
+    document.querySelector('input[name="subject"]').placeholder = content.formSubject;
+    document.querySelector('textarea[name="message"]').placeholder = content.formMessage;
+    document.querySelector('.contact-form button[type="submit"]').textContent = content.formSubmit;
+    
+    // Update button text
+    languageToggle.textContent = lang === 'en' ? 'ID' : 'EN';
+}
+
+// Toggle language on button click
+languageToggle.addEventListener('click', () => {
+    const newLanguage = currentLanguage === 'en' ? 'id' : 'en';
+    updateLanguage(newLanguage);
+    
+    // Save preference to localStorage
+    localStorage.setItem('preferredLanguage', newLanguage);
+});
+
+// Check for saved language preference
+document.addEventListener('DOMContentLoaded', () => {
+    const savedLanguage = localStorage.getItem('preferredLanguage');
+    if (savedLanguage) {
+        updateLanguage(savedLanguage);
+    }
+});
