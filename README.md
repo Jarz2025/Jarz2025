@@ -1,23 +1,71 @@
-<h1 align="center">Hi 👋, I'm Jarz2025</h1>
-<h3 align="center">A 50 50 full stack developer c:</h3>
+<div align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW5zY3h4a3JpZ2V2YzB6a2V5a3Z1cWJ6eGQ3dW1xY2V1eWZ6b3h1eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="600" height="300"/>
+</div>
 
-- 🌱 I’m currently learning **Backend and Frontend Also Firebase**
+<h1 align="center">Hey there 👋, I'm Jarz</h1>
+<h3 align="center">A passionate student developer building bots, trackers & trading tools</h3>
 
-- 👯 I’m looking to collaborate on [All of GTPS](https://jarz2025.github.io/CleoPS/)
-
-- 👨‍💻 All of my projects are available at [https://jarz2025.github.io/Jarz2025/](https://jarz2025.github.io/Jarz2025/)
-
-- 📫 How to reach me **https://jarz2025.github.io/Jarz2025/**
-
-- 📄 Know about my experiences [https://jarz2025.github.io/Jarz2025/](https://jarz2025.github.io/Jarz2025/)
-
-- ⚡ Fun fact **i think i am a interactive people**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://instagram.com/@fajarcool4404" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="@fajarcool4404" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://github.com/Jarz2025?tab=repositories">
+    <img src="https://komarev.com/ghpvc/?username=Jarz2025&label=Profile%20views&color=0e75b6&style=flat" alt="Jarz2025" />
+  </a>
+  <a href="https://github.com/Jarz2025?tab=followers">
+    <img src="https://img.shields.io/github/followers/Jarz2025?label=Follow&style=social" alt="Follow">
+  </a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
+---
 
+### 🔥 **Now Building**
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Jarz2025&repo=AI-Trading-Bot&theme=radical)](https://github.com/Jarz2025/AI-Trading-Bot)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Jarz2025&repo=Telegram-Automation-Suite&theme=radical)](https://github.com/Jarz2025/Telegram-Automation-Suite)
+
+---
+
+### 👨‍💻 **About Me**
+- 🎓 Student & self-taught developer passionate about automation
+- 🤖 Build **Telegram/Discord bots** with multi-user handling and AI
+- 📊 Create real-time **web tracking dashboards** with Firebase
+- 📈 Develop **crypto/forex tools** using TA indicators & AI strategies
+- ⚡ Love experimenting with **smart UI/UX** and automation
+- 🌱 Currently learning **advanced AI integration** techniques
+
+---
+
+### 🛠 **Tech Stack**
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
+
+**Specialized In:**
+- Telegram Bot API • Discord.js • TradingView API
+- RSI/MACD/EMA Indicators • AI Strategy Backtesting
+- Real-time Data Visualization • Chrome Extensions
+
+---
+
+### 📈 **GitHub Stats**
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Jarz2025&show_icons=true&theme=radical" alt="Jarz2025's GitHub Stats" width="45%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Jarz2025&theme=radical" alt="Jarz2025's Streak" width="45%"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jarz2025&theme=react-dark&hide_border=true&area=true" alt="GitHub Activity Graph"/>
+</div>
+
+---
+
+### 📫 **Let's Connect**
+[![Telegram](https://img.shields.io/badge/-Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/Jarz2025)
+[![Discord](https://img.shields.io/badge/-Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://discordapp.com/users/Jarz2025)
+[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/Jarz2025)
+[![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:jarz2025.dev@gmail.com)
+
+---
+
+> "Automate the boring stuff, enhance the important stuff, and never stop learning." - **Jarz2025**
